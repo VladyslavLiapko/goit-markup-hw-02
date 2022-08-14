@@ -1,8 +1,13 @@
+:root{
+    --main-bg-color: #FFFFFF;
+    --main-blue:#2196F3;
+}
+
 body {
     position: relative;
     width: 1600px;
     height: 2346px;
-    background: #FFFFFF;
+    background: var(--main-bg-color);
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -11,7 +16,7 @@ body {
 }
 
 .page-header a:hover {
-    color:#2196F3;
+    color:var(--main-blue);
 }
 
 .page-navigation .logo {
@@ -26,7 +31,7 @@ body {
 }
 
 #logo {
-    color: #2196F3;
+    color: var(--main-blue);
 }
 
 .menu-link {
@@ -46,7 +51,7 @@ body {
 
 .welcome-msg button {
     text-align: center;
-    background-color: #2196F3;
+    background-color:var(--main-blue) ;
     border: none;
     color: #FFFFFF;
 }
@@ -88,8 +93,8 @@ button {
 }
 
 button:hover {
-    background-color: #2196F3;
-    border:#2196F3;
+    background-color: var(--main-blue);
+    border:var(--main-blue);
     border-radius: 4px;
     color: #FFFFFF;
 }
