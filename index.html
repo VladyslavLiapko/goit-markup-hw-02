@@ -15,13 +15,13 @@
 </head>
 
 <body>
-    
+
     <header class="page-header">
         <nav class="page-navigation">
             <a class="logo" href="./index.html"><span id="logo">Web</span>Studio</a>
-            <ul class="menu">
+            <ul class="menu list">
                 <li class="menu-item">
-                    <a class="menu-link" href="">Студія</a>
+                    <a class="menu-link current" href="">Студія</a>
                 </li>
                 <li class="menu-item">
                     <a class="menu-link" href="./portfolio.html">Портфоліо</a>
@@ -32,49 +32,51 @@
             </ul>
         </nav>
         <ul class="contacts">
-            <li class="contacts-list-item" id="email"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contacts-list-item" id="phone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contacts-list-item"><a class="contacts-list-item-link"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-list-item"><a class="contacts-list-item-link" href="tel:+380961111111">+38 096 111 11
+                    11</a></li>
         </ul>
     </header>
 
     <main>
-        <section class="welcome-msg">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+        <section class="main-baner">
+            <h1 class="main-baner-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="main-baner-button" type="button">Замовити послугу</button>
         </section>
 
-        <section>
-            <h2 hidden>Наші переваги</h2>
+        <section class="benefits">
+            <h2 class="visually-hidden">Наші переваги</h2>
             <ul>
                 <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>
+                    <h3 class="benefits-list">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="benefits-point">
                         Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                     </p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>
+                    <h3 class="benefits-list">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="benefits-point">
                         Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                     </p>
                 </li>
                 <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>
+                    <h3 class="benefits-list">ПЛАНУВАННЯ</h3>
+                    <p class="benefits-point">
                         Так само консультація з широким активом значною мірою зумовлює.
                     </p>
                 </li>
                 <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>
+                    <h3 class="benefits-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="benefits-point">
                         Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                     </p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Чим ми займаємося</h2>
+        <section class="directions">
+            <h2 class="what-we-do">Чим ми займаємося</h2>
             <ul>
                 <li>
                     <img src="./images/box1.jpg" alt="ноутбук" width="370" height="294" />
@@ -90,35 +92,27 @@
         </section>
 
         <section class="team-section">
-            <h2>Наша команда</h2>
+            <h2 class="our-crew-label">Наша команда</h2>
             <ul class="team-section-list">
                 <li class="team-section-list-item">
                     <img src="./images/img1.jpg" alt="Ігор Дем'яненко" width="270">
-                    <div>
-                        <h3>Ігор Дем'яненко</h3>
-                        <p lang="en">Product Designer</p>
-                    </div>
+                    <h3 class="team-title">Ігор Дем'яненко</h3>
+                    <p class="team-text" lang="en">Product Designer</p>
                 </li>
                 <li class="team-section-list-item">
                     <img src="./images/img2.jpg" alt="Ольга Рєпіна" width="270">
-                    <div>
-                        <h3>Ольга Рєпіна</h3>
-                        <p lang="en">Frontend Developer</p>
-                    </div>
+                    <h3 class="team-title">Ольга Рєпіна</h3>
+                    <p class="team-text" lang="en">Frontend Developer</p>
                 </li>
                 <li class="team-section-list-item">
                     <img src="./images/img3.jpg" alt="Микола Тарасов" width="270">
-                    <div>
-                        <h3>Микола Тарасов</h3>
-                        <p lang="en">Marketing</p>
-                    </div>
+                    <h3 class="team-title">Микола Тарасов</h3>
+                    <p class="team-text" lang="en">Marketing</p>
                 </li>
                 <li class="team-section-list-item">
                     <img src="./images/img4.jpg" alt="Михайло Єрмаков" width="270">
-                    <div>
-                        <h3>Михайло Єрмаков</h3>
-                        <p lang="en">UI Designer</p>
-                    </div>
+                    <h3 class="team-title">Михайло Єрмаков</h3>
+                    <p class="team-text" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -127,15 +121,12 @@
     <footer>
         <a class="logo" href="./index.html"><span id="logo">Web</span>Studio</a>
 
-        <address>
-            <ul>
+        <address class="address">
+            <ul class="address-links">
                 <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                         rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li>
-
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="contacts-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contacts-list-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
